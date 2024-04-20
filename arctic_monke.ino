@@ -54,7 +54,7 @@ void loop()
   }
   else if (temperatureC >= normalThreshold) 
   {
-    analogWrite(redPin, 255);
+    analogWrite(redPin, 0);
     analogWrite(greenPin, 255);
     analogWrite(bluePin, 0);
     
